@@ -8,21 +8,13 @@
 
 # http://127.0.0.1:8000/
 
-# 
-
 # see the page
 
-# 
-
 # \## 👤 User API
-
-# 
 
 # \### Register User
 
 # POST /api/register/
-
-# 
 
 # Request:
 
@@ -34,21 +26,15 @@
 
 # }
 
-# 
-
 # \---
 
-# 
-
 # \## 🚗 Ride API
-
-# 
 
 # \### Create Ride
 
 # POST /api/rides/
 
-# 
+# see the ride details and adding the rides
 
 # Request:
 
@@ -62,37 +48,28 @@
 
 # }
 
-# 
-
 # \---
-
-# 
 
 # \### Get All Rides
 
 # GET /api/rides/
 
-# 
-
 # \---
-
-# 
 
 # \### Get Single Ride
 
 # GET /api/rides/{id}/
 
-# 
+#  for see single ride instances 
 
 # \---
 
-# 
-
 # \### Update Ride Status
 
-# POST /api/rides/{id}/update\_status/
+# POST /api/rides/{id}/update_status/
 
-# 
+# in there POST /api/rides/{id}/update_status/ also click extra action in there update_status in there so it will go there and we can 
+   update single rider status
 
 # Request:
 
@@ -102,29 +79,17 @@
 
 # }
 
-# 
-
 # \---
-
-# 
 
 # \## ⭐ Bonus Feature
 
-# 
-
 # \### Accept Ride
 
-# POST /api/rides/{id}/accept\_ride/
-
-# 
+# POST /api/rides/{id}/accept_ride/
 
 # This allows a driver to accept a ride and automatically updates the ride status to "started".
 
-# 
-
 # \---
-
-# 
 
 # \## 📌 Status Values
 
@@ -136,11 +101,7 @@
 
 # \- cancelled
 
-# 
-
 # \---
-
-# 
 
 # \## ⚙️ Tech Stack
 
@@ -150,11 +111,7 @@
 
 # \- Django REST Framework
 
-# 
-
 # \---
-
-# 
 
 # \## 📝 Notes
 
@@ -163,8 +120,3 @@
 # \- Admin panel available at /admin/
 
 # \- Also try to add Login but only POST not to GET if you want then install thunder client in the estensions in the VScode
-
-
-
-
-
