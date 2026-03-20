@@ -26,9 +26,9 @@ def home(request):
         </head>
         <body style="display:flex; justify-content:center; align-items:center; height:100vh; font-family:Arial;">
             <div style="text-align:center;">
-                <h1>🚗 Ride Sharing API</h1>
+                <h1> Ride Sharing API</h1>
                 <p>Welcome to the backend system</p>
-                <p>Use <b>/api/</b> to explore endpoints</p>
+                <p>Use <b>/api/</b> to see the process working</p>
             </div>
         </body>
     </html>
